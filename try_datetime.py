@@ -54,7 +54,7 @@ time_block_dataset['time_in_day'] = numpy.arange(0,96,1)
 
 print(time_block_dataset)
 
-print(sum((dataset['minutes_slot_in_day'] == 1)*1))
+print(sum((    dataset['minutes_slot_in_day'] == 1      )*1))
 
 
 
